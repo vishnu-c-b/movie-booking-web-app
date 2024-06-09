@@ -1,0 +1,42 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #ff4d4d; /* Red accent for navbar */
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: white !important;
+}
+
+.btn-primary {
+  background-color: #ff4d4d; /* Red accent for buttons */
+  border-color: #ff4d4d;
+}
+
+.btn-primary:hover {
+  background-color: #e60000;
+  border-color: #e60000;
+}
+
+.card {
+  border: 1px solid #ff4d4d; /* Red accent for card borders */
+}
+
+.card-title {
+  color: #ff4d4d; /* Red accent for card titles */
+}
+
+.card-img-top {
+  max-height: 200px;
+  object-fit: cover;
+}
+.footer {
+  padding: 10px 0;
+  font-size: 0.8rem;
+  background-color: #000000;
+  text-align: center;
+}
